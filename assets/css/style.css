@@ -14,17 +14,18 @@ body {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 54px;
+    margin:0;
+    
 }
 
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,18 +33,23 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
+    justify-content: space-between;
+    display:inline-flex;
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+.header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size:1.55vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ;
+}
+.header a {
+    text-decoration:none;
+    color:#ffffff
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
 }
 
 p {
